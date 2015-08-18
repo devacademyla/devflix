@@ -1,0 +1,61 @@
+body {
+  font-family: "Helvetica";
+  font-size: 16px;
+  margin: 0;
+  background-color: black;
+}
+header {
+  position: relative;
+  padding: 1em 3em;
+  z-index: 1;
+}
+header a {
+  color: #e50914;
+  text-decoration: none;
+ }
+header div {
+  color: white;
+  float: right;
+}
+header span { font-size: .8em; }
+header input {
+  background-color: black;
+  padding: 7px;
+  width: 250px;
+  vertical-align: top;
+}
+header input:focus { outline: 0; }
+.fa-bell {
+  margin:  0 1em;
+  font-size: 1.5em;
+}
+header a, header span, header .fa {
+  vertical-align: top;
+  line-height: 32px;
+}
+.logo, .perfil { height: 32px; }
+.logo { margin-right: 3em; }
+.vista-previa {
+  color: white;
+  padding: 3.5em 0 1.5em 3em;
+}
+.titulo {
+  margin-bottom: 1em;
+  width: 430px;
+}
+.background-info {
+  position: relative;
+  z-index: 1;
+  width: 35%;
+}
+.background-info p { font-size: 1.2em; }
+.vista-previa a {
+  color: white;
+  text-decoration: none;
+}
+.background {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.series { background-color: #141414; }
