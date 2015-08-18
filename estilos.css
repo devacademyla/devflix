@@ -8,6 +8,7 @@ header {
   position: relative;
   padding: 1em 3em;
   z-index: 1;
+  background: -webkit-linear-gradient(top, black, transparent);
 }
 header a {
   color: #e50914;
@@ -37,7 +38,7 @@ header a, header span, header .fa {
 .logo { margin-right: 3em; }
 .vista-previa {
   color: white;
-  padding: 3.5em 0 1.5em 3em;
+  padding: 3.5em 0 2.9em 3em;
 }
 .titulo {
   margin-bottom: 1em;
@@ -52,10 +53,30 @@ header a, header span, header .fa {
 .vista-previa a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .background {
   top: 0;
   right: 0;
   position: absolute;
 }
-.series { background-color: #141414; }
+.series {
+  color: white;
+  background-color: #141414;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+.series img {
+  width: 220px;
+  margin-bottom: 1em;
+  transition: all .2s;
+}
+
+.series img:hover { transform: scale(1.5); }
+
+.series h2, .vista-previa p, .vista-previa span { opacity: .6; }
+
+.vista-previa span:nth-child(2) {
+  border: 1px solid white;
+  padding: 1px 3px;
+}
