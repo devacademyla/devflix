@@ -22,6 +22,7 @@ header div {
 }
 header span { font-size: .8em; }
 header input {
+  color: white;
   background-color: black;
   padding: 7px;
   vertical-align: top;
@@ -78,7 +79,7 @@ header a, header span, header .fa {
 
 .series h2, .vista-previa p, .vista-previa span { opacity: .6; }
 
-.vista-previa span:nth-child(2) {
+.vista-previa span:nth-child(3) {
   border: 1px solid white;
   padding: 1px 3px;
 }
