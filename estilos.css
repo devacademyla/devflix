@@ -1,14 +1,16 @@
 body {
+  background-color: black;
   font-family: "Helvetica";
   font-size: 16px;
-  margin: 0;
-  background-color: black;
+  margin: 0 auto;
+  max-width: 1366px;
+  position: relative;
 }
 header {
-  position: relative;
-  padding: 1em 3em;
-  z-index: 1;
   background: -webkit-linear-gradient(top, black, transparent);
+  padding: 1em 3em;
+  position: relative;
+  z-index: 1;
 }
 header a {
   color: #e50914;
@@ -22,17 +24,17 @@ header span { font-size: .8em; }
 header input {
   background-color: black;
   padding: 7px;
-  width: 250px;
   vertical-align: top;
+  width: 250px;
 }
 header input:focus { outline: 0; }
 .fa-bell {
-  margin:  0 1em;
   font-size: 1.5em;
+  margin:  0 1em;
 }
 header a, header span, header .fa {
-  vertical-align: top;
   line-height: 32px;
+  vertical-align: top;
 }
 .logo, .perfil { height: 32px; }
 .logo { margin-right: 3em; }
@@ -46,8 +48,8 @@ header a, header span, header .fa {
 }
 .background-info {
   position: relative;
-  z-index: 1;
   width: 35%;
+  z-index: 1;
 }
 .background-info p { font-size: 1.2em; }
 .vista-previa a {
@@ -56,20 +58,20 @@ header a, header span, header .fa {
   text-transform: uppercase;
 }
 .background {
-  top: 0;
-  right: 0;
   position: absolute;
+  right: 0;
+  top: 0;
 }
 .series {
-  color: white;
   background-color: #141414;
-  padding-top: 25px;
+  color: white;
   padding-left: 50px;
+  padding-top: 25px;
 }
 .series img {
-  width: 220px;
   margin-bottom: 1em;
   transition: all .2s;
+  width: 210px;
 }
 
 .series img:hover { transform: scale(1.5); }
